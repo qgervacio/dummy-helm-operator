@@ -22,7 +22,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag qgervacio/dummy-helm-operator:1.0.0
+      run: docker build . --file Dockerfile --tag qgervacio/dummy-helm-operator:1.0.2
     
     - name: Push the Docker image
-      run: docker push qgervacio/dummy-helm-operator:1.0.0
+      run: docker push qgervacio/dummy-helm-operator:1.0.2
