@@ -15,4 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag qgervacio/dummy-helm-operator:$(date +%s)
+      run: docker build . --file Dockerfile --tag qgervacio/dummy-helm-operator:1.0.0
+    - name: Push the Docker image
+      run: docker push qgervacio/dummy-helm-operator:1.0.0
