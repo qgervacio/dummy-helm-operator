@@ -1,0 +1,9 @@
+apiVersion: v1
+appVersion: v1.0.0
+description: Platform Helm Charts - Dummy Chart A
+maintainers:
+- email: qgervacio@gmail.com
+  name: Quirino Gervacio
+name: dummy-chart-a
+type: application
+version: 1.0.0
