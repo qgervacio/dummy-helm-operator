@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: demo.platform.git.dt.singtel.com
+  version: v1alpha1
+  kind: Dummy
+  chart: helm-charts/dummy-chart-a
+#+kubebuilder:scaffold:watch
