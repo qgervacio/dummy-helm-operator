@@ -1,4 +1,0 @@
-name: 'Dummy Helm Operator'
-runs:
-  using: 'docker'
-  image: 'Dockerfile'
